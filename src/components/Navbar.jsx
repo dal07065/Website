@@ -32,7 +32,7 @@ export function Navbar() {
           </IconButton>
         </Link>
         <Link to="/about" style={linkStyle}>
-          a b o u t
+          l i n a ∙ k a n g
         </Link>
         <Link to="/portfolio" style={linkStyle}>
           p o r t f o l i o
