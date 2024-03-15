@@ -1,0 +1,27 @@
+#paragraphs {
+    font-family: monospace;
+}
+#normal {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    display: inline;
+}
+
+#coral {
+    color:rgb(255, 77, 0);
+    display: inline;
+}
+#blue {
+    color:rgb(0, 89, 255);
+    display: inline;
+}
+#green {
+    color:rgb(0, 215, 11);
+    display: inline;
+}
+
+#purple {
+    color:rgb(247, 0, 243);
+    display: inline;
+}
