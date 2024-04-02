@@ -2,6 +2,8 @@ import { AppBar, IconButton, Toolbar } from "@mui/material";
 import { House } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 
+import "../stylesheets/Navbar.css"
+
 const linkStyle = {
   margin: "1rem",
   textDecoration: "none",
@@ -13,28 +15,18 @@ export function Navbar() {
     <AppBar position="static" elevation={0}>
       <Toolbar sx={{ background: "#ffffff" }}>
         <Link to="/">
-          <IconButton
+          <IconButton className="homebutton"
             size="large"
             edge="start"
             aria-label="logo"
-            sx={{
-              "&:hover": {
-                backgroundColor: "#ffffff",
-                color: "#000000",
-              },
-              "&:active": {
-                backgroundColor: "ffffff",
-                color: "#000000",
-              },
-            }}
           >
             <House />
           </IconButton>
         </Link>
-        <Link to="/about" style={linkStyle}>
+        <Link to="/about" className="aboutme">
           l i n a ∙ k a n g
         </Link>
-        <Link to="/portfolio" style={linkStyle}>
+        <Link to="/portfolio" className="portfolio">
           p o r t f o l i o
         </Link>
       </Toolbar>

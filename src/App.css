@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  
+  cursor: url('../public/heart.png'), auto;	
 }
 
 .App-logo {
