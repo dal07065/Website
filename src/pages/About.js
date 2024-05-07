@@ -16,7 +16,7 @@ export default function About() {
 
       <div id="paragraphs">
         <br></br>
-        <div id="normal">I'm</div>
+        <div id="normal">My name is</div>
         <div id="coral">Lina</div>
         <br></br>
         <br></br>
