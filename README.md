@@ -10,7 +10,7 @@ Showcase of 3D models I made
 
 ## About
 
-![alt text](about.gif)
+![alt text](about.jpg)
 
 ## Portfolio
 
